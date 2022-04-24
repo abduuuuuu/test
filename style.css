@@ -46,25 +46,38 @@ nav ul li a:hover{
       top:8vh;
       right: 0;
       height: 92vh;
-      width: 50%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      transform: translateY(-100%);
-      z-index: -1;
+      transform: translateY(-110%);
+     
+      
+      
+      
   }
+
   nav ul li {
     margin: 20% 0;  
   }
   .burger{
       display: block;
+      
   }
+ 
+
     
 }
 .active{
-    transform: translateY(0%);
-    transition: .4s;
+    transform: translateX(0%);
+    transition: .1s;
 }
-body{
-    overflow: hidden;
+.toggle .line1{
+opacity: 0;
+}
+.toggle .line2{
+    opacity: 1;
+}
+.toggle .line3{
+    opacity: 0;
 }
